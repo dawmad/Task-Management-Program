@@ -1,0 +1,19 @@
+localhost
+
+greenproject
+
+root
+
+
+
+
+************************
+* 1. Nazwa hosta       *
+
+* 2. Nazwa bazy danych *
+
+* 3. Nazwa uzytkownika *
+
+* 4. Haslo             *
+*      FORMAT ANSI     *
+************************

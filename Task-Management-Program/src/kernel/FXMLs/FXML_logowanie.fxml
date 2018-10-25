@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" onDragDetected="#handleButtonAction1" prefHeight="755.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kernel.logowanieController">
+    <children>
+      <ImageView fitHeight="801.0" fitWidth="858.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/login.PNG" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="302.0" layoutY="394.0" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="256.0" style="-fx-background-color: #4ca3ba;" text="Zaloguj" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+        <Label fx:id="login_info" alignment="CENTER" contentDisplay="CENTER" layoutX="302.0" layoutY="459.0" minHeight="16" minWidth="69" prefHeight="25.0" prefWidth="256.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Label>
+      <Button fx:id="button1" layoutX="428.0" layoutY="554.0" mnemonicParsing="false" onAction="#handleButtonAction1" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: #4ca3ba;" text="Rejestracja" textFill="WHITE" />
+      <TextField id="loginField" fx:id="login" layoutX="338.0" layoutY="233.0" prefHeight="51.0" prefWidth="214.0" promptText="login" style="-fx-background-color: white; -fx-text-fill: #6c6d6d;">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></TextField>
+      <PasswordField fx:id="haslo" layoutX="338.0" layoutY="314.0" prefHeight="51.0" prefWidth="214.0" promptText="hasło" style="-fx-background-color: white; -tx-text-fill: #6c6d6d;">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </PasswordField>
+    </children>
+</AnchorPane>
